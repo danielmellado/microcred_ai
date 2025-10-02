@@ -1,0 +1,14 @@
+jupyterlab
+scikit-learn
+matplotlib
+jedi-language-server
+python-lsp-server[all]
+pyright
+huggingface_hub
+transformers
+ipywidgets
+gensim
+torch
+torchvision
+torchaudio
+

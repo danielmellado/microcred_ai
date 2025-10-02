@@ -33,7 +33,4 @@ RUN mkdir -p ${TORCH_HOME}/.jupyter/lab/user-settings/@jupyterlab/apputils-exten
  && echo '{ "theme": "JupyterLab Dark" }' \
     > ${TORCH_HOME}/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/themes.jupyterlab-settings
 
-CMD ["bash", "-c", "\
-    export USER_ID=${USER_ID}; \
-    export GROUP_ID=${GROUP_ID}; \
-    exec jupyter lab --ip=0.0.0.0 --no-browser --ServerApp.token= --ServerApp.password= --notebook-dir=${TORCH_HOME}/work"]
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--no-browser", "--ServerApp.token=", "--ServerApp.password=", "--notebook-dir=${TORCH_HOME}/work"]
