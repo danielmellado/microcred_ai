@@ -2,26 +2,27 @@
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 **/.ipynb_checkpoints/
+.Trash-*
 
-# C extensions                                                                                                                                                                    
-*.so                                                                                                                                                                              
-                                                                                                                                                                                  
-# Packages                                                                                                                                                                        
-*.egg                                                                                                                                                                             
-*.egg-info                                                                                                                                                                        
-dist                                                                                                                                                                              
-build                                                                                                                                                                             
-eggs                                                                                                                                                                              
-parts                                                                                                                                                                             
-bin                                                                                                                                                                               
-var                                                                                                                                                                               
-sdist                                                                                                                                                                             
-develop-eggs                                                                                                                                                                      
-lib                                                                                                                                                                               
-lib64                                                                                                                                                                             
-                                                                                                                                                                                  
-# Installer logs                                                                                                                                                                  
-pip-log.txt                                                                                                                                                                       
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+lib
+lib64
+
+# Installer logs
+pip-log.txt
 
 *.egg-info/
 .installed.cfg
