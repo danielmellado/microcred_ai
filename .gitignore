@@ -71,3 +71,4 @@ venv.bak/
 .Trashes
 ehthumbs.db
 Thumbs.db
+notebooks/cv/data/cifar-10-batches-py/
